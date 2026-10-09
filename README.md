@@ -4,6 +4,10 @@ Find out what makes a Snowflake or Redshift bill expensive, from one CSV export 
 
 It is the sixth piece of a small end-to-end data platform for a fictional online coffee shop, and the one that keeps the other five cheap to run.
 
+![The audit run on a synthetic week: $644 of query time against $7,560 of billed compute, and the findings ranked by estimated saving](docs/demo.gif)
+
+The recording runs the CLI on the synthetic week in `tests/fixtures`. Re-record it with `vhs docs/demo.tape`.
+
 ## What it finds
 
 | Pattern | Why it costs money | Saving estimated as |
